@@ -1,58 +1,24 @@
-# Arquitecturas Css
-Curso de Arquitecturas Css.
+# Arquitecturas CSS
 
-Necesitamos que css sea.
-1. Limpio.
-2. Escalable.
-3. Mantenible.
+## Curso de Arquitecturas CSS
 
-Podemos tomar en cuenta los principios de la programación orientada a objetos.
- * Solid.
- * Dry.
- * Immutability.
+En este curso de Arquitecturas CSS, nos enfocaremos en crear código CSS que cumpla con los siguientes principios:
 
-Arquitectura se refuere como se divide el codigo en archivos y carpetas, Y como trabajamos con nuestros selectores __*Nombramiento de Clases*__.
+- **Limpio:** Mantendremos nuestro código CSS organizado y fácil de entender.
+- **Escalable:** Diseñaremos nuestro código CSS de manera que pueda crecer y adaptarse a cambios sin dificultad.
+- **Mantenible:** Implementaremos prácticas que faciliten el mantenimiento del código CSS a lo largo del tiempo.
+- **Aplicaremos los principios de la programación orientada a objetos, teniendo en cuenta los siguientes aspectos:**
+  - SOLID.
+  - DRY (Don't Repeat Yourself).
+  - Inmutabilidad.
 
-## Solid.
-### S.
- Single Responsability Principle: Una clase debe tener solo una razon para cambiar.
+En cuanto a la arquitectura, nos referiremos a cómo dividimos nuestro código en archivos y carpetas, así como a cómo trabajamos con nuestros selectores y al nombramiento de clases.
 
-```css
-.button {
-     border-radius: 2px;
-}
-.button--secondary {
-    background-color: red;
-    color: blue;
-}
-```
-
-```html
-<button class='button button--secondary'></button>
-```
-es esta caso caso cada clase son independentes y complen su funcion sin mezclarse.
-
----
-
-### O.
-Open-Closed principle:Las entidades de software deben estar abiertas para extención, pero cerradas para módificación.
+Notas del curso en [Notion](https://smooth-idea-b46.notion.site/Arquitectura-css-b1776d425f624fbb96de851edfaa936b?pvs=4)
 
 
-```css
-.button {
-     border-radius: 2px;
-}
-.button--secondary {
-    @extend .buttom--sm;
-    background-color: red;
-    color: blue;
-}
-```
-se deben agregar es propiedades paro no deben heredar.
 
----
-### L.
-Liskov substitution
+
 
 
 
